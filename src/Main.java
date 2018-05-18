@@ -13,7 +13,24 @@ public class Main {
         hashMapOps hmOp = new hashMapOps(hm);
         treeMapOps tmOp = new treeMapOps(tm);
 
+        System.out.println("Now Working With A HashSet!");
+        System.out.println("===========================");
         hsOp.add();
         hsOp.printHS();
+        hsOp.clearHS();
+        hsOp.printHS();
+        System.out.println("===========================");
+
+        System.out.println("Now Working With A HashMap!");
+        System.out.println("===========================");
+        hmOp.add();
+        hmOp.unlock();
+        System.out.println("===========================");
+
+        System.out.println("Now Working With A TreeMap!");
+        System.out.println("===========================");
+        tmOp.add();
+        tmOp.printTM();
+        System.out.println("===========================");
     }
 }
