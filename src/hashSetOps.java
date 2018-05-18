@@ -13,21 +13,21 @@ public class hashSetOps {
     public void add(){
         //Demonstrates HashSets ability to sort through duplicates
 
-        hs.add(1);
-        hs.add(2);
-        hs.add(2);
+        hs.add(5);
+        hs.add(5);
+        hs.add(5);
+        hs.add(5);
         hs.add(3);
-        hs.add(3);
-        hs.add(3);
         hs.add(4);
         hs.add(4);
-        hs.add(4);
-        hs.add(4);
-        hs.add(5);
-        hs.add(5);
-        hs.add(5);
-        hs.add(5);
-        hs.add(5);
+        hs.add(11);
+        hs.add(10);
+        hs.add(13);
+        hs.add(13);
+        hs.add(13);
+        hs.add(15);
+        hs.add(50);
+        hs.add(50);
     }
 
     public void printHS(){
@@ -39,7 +39,7 @@ public class hashSetOps {
         }
         this.it = this.hs.iterator();
         while (it.hasNext()){
-            System.out.println(it.next() + "\n");
+            System.out.println(it.next());
         }
         System.out.println("Size of HashSet: " + this.hs.size());
     }

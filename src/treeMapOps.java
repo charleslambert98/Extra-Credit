@@ -2,11 +2,9 @@ import java.util.TreeMap;
 import java.util.Iterator;
 import java.util.Set;
 
-public class treeMapOps {
+public class treeMapOps extends TreeMap {
 
     private TreeMap<Integer, String> tm;
-    private Iterator it;
-    private Set set;
 
     public treeMapOps(TreeMap<Integer, String> tm) {
         this.tm = tm;
