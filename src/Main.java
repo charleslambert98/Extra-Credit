@@ -5,7 +5,7 @@ import java.util.TreeMap;
 public class Main {
     public static void main(String[] args){
 
-        HashSet<Integer> hs = new HashSet<>(100);
+        HashSet<Integer> hs = new HashSet<>(100); //Set so that values up to 100 can be added (16 is default)
         HashMap<Integer, String> hm = new HashMap<>();
         TreeMap<Integer, String> tm = new TreeMap<>();
 

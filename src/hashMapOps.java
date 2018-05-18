@@ -2,6 +2,10 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public class hashMapOps {
+    /*
+    Created for ease of use and clean look of main class.  All Ops classes contain the methods that operate on the
+    various data types created in the main class.
+     */
 
     private HashMap<Integer, String> hm;
     private Scanner input = new Scanner(System.in);

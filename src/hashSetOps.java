@@ -2,6 +2,10 @@ import java.util.HashSet;
 import java.util.Iterator;
 
 public class hashSetOps {
+    /*
+    Created for ease of use and clean look of main class.  All Ops classes contain the methods that operate on the
+    various data types created in the main class.
+     */
 
     HashSet<Integer> hs;
     Iterator it;
@@ -34,21 +38,21 @@ public class hashSetOps {
         //Displays all of the values in the HashSet
 
         System.out.println("Printing Values in HashSet:");
-        if (this.hs.size()==0){
+        if (hs.size()==0){
             System.out.println("No Values!");
         }
-        this.it = this.hs.iterator();
+        it = hs.iterator();
         while (it.hasNext()){
             System.out.println(it.next());
         }
-        System.out.println("Size of HashSet: " + this.hs.size());
+        System.out.println("Size of HashSet: " + hs.size());
     }
 
     public void clearHS(){
         //Clears the HashSet
 
         System.out.println("\nClearing HashSet...\n");
-        this.hs.clear();
+        hs.clear();
 
     }
 

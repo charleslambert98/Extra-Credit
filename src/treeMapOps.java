@@ -1,8 +1,10 @@
 import java.util.TreeMap;
-import java.util.Iterator;
-import java.util.Set;
 
 public class treeMapOps extends TreeMap {
+    /*
+    Created for ease of use and clean look of main class.  All Ops classes contain the methods that operate on the
+    various data types created in the main class.
+     */
 
     private TreeMap<Integer, String> tm;
 
